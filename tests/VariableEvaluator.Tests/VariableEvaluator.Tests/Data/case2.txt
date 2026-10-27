@@ -1,0 +1,9 @@
+m1 = 10.2
+m2 = 9.8
+m3 = 10.5
+m4 = 10.1
+mean_measurement = MEAN(m1, m2, m3, m4)
+calibration_factor = 1.15
+calibrated_mean = mean_measurement * calibration_factor
+offset = 0.5
+result = calibrated_mean + offset
